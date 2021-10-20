@@ -1,0 +1,19 @@
+h1, .grid {
+    text-align: center;
+}
+.loader {
+    display: block;
+    margin: 100px auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.links {
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
